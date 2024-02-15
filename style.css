@@ -21,7 +21,10 @@
    a:link, a:visited {
     text-decoration: none;
   }
-
+.listText{
+  font-size: 2rem;
+  text-align: center;
+}
   .post > .listTitle{
     height: 50%;
     padding-bottom: 5px;
@@ -103,7 +106,7 @@
     padding-left: 1rem;
 }
 .navbar{
-    width: 10rem;
+    width: 11rem;
     height: 120vh;
     position: fixed;
     background-color:#003459;
@@ -354,8 +357,10 @@ margin-bottom: -0.5rem;
 
 .intro{
     margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: left;
-        font-size: 1.5rem;
+    font-size: 1.5rem;
 }
  
  

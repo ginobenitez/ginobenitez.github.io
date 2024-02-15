@@ -11,6 +11,7 @@
     overflow: hidden;
     max-height: min-content;
  }
+ 
  a:link {
     color: #003459;
   }
@@ -30,6 +31,7 @@
   a:link, a:visited {
     text-decoration: none;
   }
+
  .listTitle{
     height: 50%;
     padding-bottom: 5px;

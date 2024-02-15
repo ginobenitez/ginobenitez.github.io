@@ -1,0 +1,273 @@
+/* You can add global styles to this file, and also import other style files */
+.listHeader{
+    left:0;
+    margin-left: -2rem;
+    margin-bottom: 5rem;
+    list-style: none;
+    font-size: 35pt;
+    font-family: Inria Sans;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    max-height: min-content;
+ }
+ .listTitle{
+    height: 50%;
+    padding-bottom: 5px;
+    overflow: hidden;
+ }
+ 
+ .inria-sans-light {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .inria-sans-regular {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inria-sans-bold {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .inria-sans-light-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .inria-sans-regular-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .inria-sans-bold-italic {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .section-object{
+    overflow: hidden;
+    position: relative;
+  }
+  .section{
+    overflow: hidden;
+    max-height: fit-content;
+    overflow:hidden;
+  }
+  .page{
+    
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+  .mainContent{
+    overflow:hidden;
+    max-width: fit-content;
+    position: absolute;
+    left: 175px;
+    
+  }
+  
+  .mainNav{
+    overflow:hidden;
+    max-width: fit-content;
+  }
+
+  .projectBullets{
+    font-size: 16pt;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.projectImageLink{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.navbar{
+    width: 10rem;
+    height: 120vh;
+    position: fixed;
+    background-color:#003459;
+    overflow:hidden;
+   
+}
+.navbar-nav{
+    overflow:hidden;
+    list-style: none;
+    padding: 0;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+ .nav-item{
+     margin-top: 2rem;
+     overflow:hidden;
+     margin-bottom: 2rem;
+    
+}
+
+.nav-item:hover{
+    -webkit-animation: bounce 0.75s infinite;
+}
+@-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1);
+}
+
+30%{
+transform: scale(1,1.5) ; 
+}
+
+75%{
+transform: scale(1,1.25) ; 
+}
+
+100% {
+transform: scale(1,1) ;
+}
+}
+#profilePic{
+    margin-top: 2rem;
+    border-radius: 2rem;
+    overflow:hidden;
+}
+
+.heading{
+    margin-left: -1rem;
+    margin-top: -3rem;
+    max-width: fit-content;
+    max-height: fit-content;
+    overflow:hidden;
+}
+.nav-button{
+    border: none;
+    background-color:#003459;
+    color: whitesmoke;
+    font-size: large;
+    font-family:Inria Sans;
+    font-weight:700;
+}
+p{
+    font-size:large;
+}
+
+h4{
+    overflow:hidden;
+    max-height: min-content;
+    max-width: fit-content;
+}
+h5{
+    overflow:hidden;
+    max-height: min-content;
+    max-width: fit-content;
+}
+.educationListItem{
+    overflow:hidden;
+max-height: fit-content;
+padding: 1rem;
+margin-right: 1rem;
+border-radius: 4px;
+background-color: #f0edea;
+
+}
+.education-item{
+    overflow:hidden;
+    max-height: fit-content;
+    
+}
+
+.courseWork{
+    padding-top: 1rem;
+    overflow:hidden;
+    font-size: 15pt;
+    max-height: fit-content;
+}
+.educationText{
+    overflow:hidden;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+}
+.schoolName{
+    overflow:hidden;
+    font-size: 20pt;
+    max-height: fit-content;
+}
+.schoolName p{
+    overflow:hidden;
+    font-size: 15pt;
+    max-height: fit-content;
+    float: inline-end;
+}
+
+.location{
+    float:right;
+   flex-direction: row-reverse;
+   margin-left: auto;
+   font-size: large;
+   text-align: center;
+   line-height: 2;
+}
+
+.degree{
+    
+    font-size: large;
+    text-align: center;
+    line-height: 2;
+}
+.graduation{
+    float:right;
+   margin-left: auto;
+   font-size: large;
+   text-align: center;
+   line-height: 2;
+    flex-direction: row-reverse;
+}
+
+.image-box{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+    width: 50%;
+    
+}
+.about-box{
+    text-align: center;
+}
+
+.about-pic{
+   
+    border-radius: 50% ;
+   border: 5px solid #007EA7;
+
+}
+.about-name{
+    margin-top: 2rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+   
+    max-height: fit-content;
+    text-align: center;
+}
+.about-info{
+   color: #003459
+}
+.about-info > p{
+    font-size: 2rem;
+ }
+*{
+    font-family: "Inria Sans", sans-serif;
+}

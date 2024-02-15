@@ -265,7 +265,7 @@ background-color: #f0edea;
 .about-info{
    color: #003459
 }
-.about-info > p{
+.email{
     font-size: 2rem;
  }
 
@@ -284,6 +284,7 @@ background-color: #f0edea;
    max-width: fit-content;
    max-height: min-content;
    background-color: #f0edea;
+   display: grid;
 }
 
 .skillListItem{
@@ -292,6 +293,7 @@ background-color: #f0edea;
    margin:2rem;
    object-fit: contain;
    padding: 10px;
+   display: inline-grid;
 }
 
 .skillsText{
@@ -339,14 +341,10 @@ margin-bottom: -0.5rem;
     margin-top: -5rem;
  }
 
- .skillHolder{
-    background-color: #f0edea;
-    display: inline-grid;
-    row-gap:50px;
-    column-gap:50px;
-    margin-right: 2rem;
-    border-radius: 5%;
-    margin-top: -5rem;
- }
+.intro{
+    margin-top: 3rem;
+    text-align: left;
+        font-size: 1.5rem;
+}
  
  

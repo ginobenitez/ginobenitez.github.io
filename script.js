@@ -6,18 +6,18 @@ const skills = document.getElementById("skills");
 
 
 function goToAbout(){
-    about.scrollIntoView(true);
+    about.scrollIntoView();
 };
 
 function goToExp(){
-    about.scrollIntoView(true);
+    experience.scrollIntoView();
 }
 function goToProj(){
-    about.scrollIntoView(true);
+    projects.scrollIntoView();
 }
 function goToEdu(){
-    about.scrollIntoView(true);
+    education.scrollIntoView();
 }
 function goToSkills(){
-    about.scrollIntoView(true);
+    skills.scrollIntoView();
 }

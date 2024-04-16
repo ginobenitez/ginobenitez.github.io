@@ -68,7 +68,7 @@
   }
   .section-object{
     overflow: hidden;
-    position: relative;
+    position: fixed;
   }
   .section{
     overflow: hidden;
